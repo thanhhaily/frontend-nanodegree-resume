@@ -11,7 +11,7 @@ h5,
 h6 {
   padding:0;
   margin:0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .clear-fix {
@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #f9df7e;
   line-height: 48px;
   display: inline;
 }
@@ -86,7 +86,7 @@ p {
 }
 
 a {
-  color: #1199c3;
+  color: #3fb0ac;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -100,16 +100,16 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #fae596;
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #fae596;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #fae596;
 }
 
 .white-text {
@@ -124,12 +124,12 @@ a {
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #89bdd3;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #89bdd3;
 }
 
 .flex-box {
@@ -154,6 +154,7 @@ ul {
   padding: 10px;
   width: 200px;
   display: none;
+  border-radius: 100%;
 }
 
 img {
@@ -211,4 +212,15 @@ span {
   .biopic {
     display: block;
   }
+}
+
+/*additional style*/
+
+.project-entry img {
+  width: 300px;
+  height: 240px;
+}
+
+.more-gray {
+  background-color: #e3e3e3;
 }
