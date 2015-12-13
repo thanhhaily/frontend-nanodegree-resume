@@ -29,6 +29,7 @@ bio.display = function() {
 	$("#header").prepend(formattedName);
 	$("#header").append(formattedBioPic);
 	$("#topContacts").append(formattedMobile + formattedEmail + formattedGithub + formattedTwitter + formattedLocation);
+	$("#footerContacts").append(formattedMobile + formattedEmail + formattedGithub + formattedTwitter + formattedLocation);
 	$("#header").append(formattedWelcomeMsg);
 
 	if(bio.skills.length !== 0) {
@@ -146,7 +147,6 @@ var projects = {
 			"description" : "A static website for watching movie online. The website is created using HTML, CSS, JavaScript, Bootstrap, JQuery",
 			"images" : [
 				"images/project1-1.jpg",
-				"images/category-movie-page.jpg",
 				"images/watch-movie-page.jpg"
 			]
 		},
@@ -155,6 +155,12 @@ var projects = {
 			"dates" : 2015,
 			"description" : "Java application built using Java with JDBC, Swing, SQL SERVER 2008.",
 			"images" : ["images/javaapp.jpg"]
+		},
+		{
+			"title" : "Frontend Nanodegree Resume",
+			"dates" : 2015,
+			"description" : "A static website built on HTML, CSS, JavaScript, JQuery",
+			"images" : ["images/resume.jpg"]
 		}
 	]
 }
